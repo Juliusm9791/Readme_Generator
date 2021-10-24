@@ -5,31 +5,19 @@ const inquirer = require("inquirer");
 // Array of questions for user input
 const questions = require("./utils/questions.js");
 
+// Function for creating file content
+const generateFile = require("./utils/generateMarkdown.js")
+
 const fileName = "README.md";
 
 // Writes to README file
-function writeToFile(fileName) {
+function writeToFile() {
     inquirer.prompt(questions)
         .then(answers => {
-            console.log(answers);
-            let data = createData(answers);
-            fs.writeFile(fileName, data, err => {
+            fs.writeFile(fileName, generateFile(answers), err => {
                 err ? console.log(err) : console.log('The file has been saved!');
             });
         });
 }
 
-function createData({ title, description }) {
-    let data = `# ${title}
-${description}`;
-
-    return data
-}
-
-// Function to initialize app
-function init() {
-    writeToFile(fileName)
-}
-
-
-init();
+writeToFile();
