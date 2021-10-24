@@ -32,7 +32,7 @@ function checkIfLicense(answers, text) {
     return text;
   }
 }
-function icenseLink(answers) { 
+function licenseLink(answers) { 
   const chosenLic = licenseBadgeLink(answers.licenses)
   if (chosenLic){
     return `Usage is provided under the [${answers.licenses}](${chosenLic[1]}). See LICENSE for the full details.`
@@ -57,24 +57,24 @@ function generateFile(answers) {
   ## Description
   ${answers.description}
   ## Installation instructions
-
+  ${answers.installation}
   ## Usage information
-
+  ${answers.usage}
   ## Contribution guidelines
-
+  ${answers.contribution}
   ## Test instructions
-
+  ${answers.test}
   ## License
   ${checkIfLicense(answers, "No license specified.")}
 
-  ${icenseLink(answers)}
+  ${licenseLink(answers)}
 
   ## Questions
 
   To reach me with additional questions
 
-  GitHub: ${answers.gitHub}
-  
+  GitHub: [${answers.gitHub}](https://github.com/${answers.gitHub})
+
   Email: ${answers.email}
 
 `;

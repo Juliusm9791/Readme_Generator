@@ -1,5 +1,5 @@
-# Reame Generator
-  [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+# Readme Generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of contents
   - [Description](#description)
@@ -11,23 +11,25 @@
   - [Questions](#questions)
 
   ## Description
-  This is for reafme genereator
+  To generate good readme file.
   ## Installation instructions
-
+  npm i inquirer
   ## Usage information
-
+  
   ## Contribution guidelines
-
+  
   ## Test instructions
-
+  
   ## License
-  [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  Usage is provided under the [2-Clause BSD License](https://opensource.org/licenses/BSD-2-Clause). See LICENSE for the full details.
+  Usage is provided under the [MIT License](https://opensource.org/licenses/MIT). See LICENSE for the full details.
 
   ## Questions
 
   To reach me with additional questions
-  GitHub: juliusm9791
+
+  GitHub: [Juliusm9791](https://github.com/Juliusm9791)
+
   Email: juliusm9791@gmail.com
 
