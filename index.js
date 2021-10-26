@@ -8,7 +8,7 @@ const questions = require("./utils/questions.js");
 // Function for creating file content
 const generateFile = require("./utils/generateMarkdown.js")
 
-const fileName = "README.md";
+const fileName = "README-Created.md";
 
 // Writes to README file
 function writeToFile() {

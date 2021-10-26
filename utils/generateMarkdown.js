@@ -57,12 +57,14 @@ function generateFile(answers) {
   ## Description
   ${answers.description}
   ## Installation instructions
+  For dependancies run following comand:
   ${answers.installation}
   ## Usage information
   ${answers.usage}
   ## Contribution guidelines
   ${answers.contribution}
   ## Test instructions
+  Run following command to test:
   ${answers.test}
   ## License
   ${checkIfLicense(answers, "No license specified.")}

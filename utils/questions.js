@@ -19,27 +19,27 @@ module.exports = [
     },
     {
         type: 'input',
-        message: "description",
+        message: "Write description for your project.",
         name: 'description',
     },
     {
         type: 'input',
-        message: "installation instructions",
+        message: "What dependencies you need to install?",
         name: 'installation',
     },
     {
         type: 'input',
-        message: "usage information",
+        message: "What is required to use this repo?",
         name: 'usage',
     },
     {
         type: 'input',
-        message: "contribution guidelines",
+        message: "What information you need for contribution?",
         name: 'contribution',
     },
     {
         type: 'input',
-        message: "test instructions",
+        message: "What do you need to run the program and test?",
         name: 'test',
     },
     {
